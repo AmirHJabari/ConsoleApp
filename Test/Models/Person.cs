@@ -9,8 +9,11 @@ namespace Test.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required()]
+
+        [Required(ErrorMessage = "لطفا {0} را وارد کنید !")]
+        [Display(Name = "نام کاربری")]
         public string UserName { get; set; }
+
         [Required]
         public string Email { get; set; }
         public int Age { get; set; }
