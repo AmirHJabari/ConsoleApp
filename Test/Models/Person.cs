@@ -9,7 +9,7 @@ namespace Test.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+        [Required()]
         public string UserName { get; set; }
         [Required]
         public string Email { get; set; }
