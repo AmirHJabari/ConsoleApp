@@ -21,6 +21,9 @@ namespace Test.Models
         [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
-        public string PhoneNomber { get; set; }
+
+        [Required]
+        [DataType(DataType.PhoneNumber)]
+        public string PhoneNumber { get; set; }
     }
 }
