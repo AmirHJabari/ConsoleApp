@@ -17,6 +17,7 @@ namespace Test.Models
         [Required]
         public string Email { get; set; }
         public int Age { get; set; }
+        [Required]
         public string Password { get; set; }
         public string PhoneNomber { get; set; }
     }
