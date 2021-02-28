@@ -7,7 +7,11 @@ namespace Test
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+<<<<<<< HEAD
             Console.Read();
+=======
+            Console.ReadLine();
+>>>>>>> data-base
         }
     }
 }
